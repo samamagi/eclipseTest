@@ -10,6 +10,7 @@ public class CheckDataValid {
 		
 		String formatterDate = "dd/MM/yyyy";
 		String requestDate = "30/12/2020";
+		
 		if (CheckDataValidUtil.isValidDate(requestDate, formatterDate)) {
 			System.out.println("********** E' POSSIBILE PROCEDERE CON LE OPERAZIONI **********");
 		} else {
