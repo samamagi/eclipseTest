@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
-public class CheckDataValidUtil {
+public class CheckDataValid {
 	
     /**
      * 
@@ -38,7 +38,7 @@ public class CheckDataValidUtil {
      * @param s_year
      * @return
      */
-    protected static boolean isYearInRange (String s_year) {
+    private static boolean isYearInRange (String s_year) {
     	
     	boolean isInRange = false;
     	try { 
@@ -63,7 +63,7 @@ public class CheckDataValidUtil {
      * @param s_month
      * @return
      */
-    protected static boolean isMonthInRange (String s_month) {
+    private static boolean isMonthInRange (String s_month) {
     	
     	boolean isInRange = false;
     	
@@ -87,7 +87,7 @@ public class CheckDataValidUtil {
      * @param s_year
      * @return
      */
-    protected static boolean isLeapYear (String s_year) {
+    private static boolean isLeapYear (String s_year) {
     	
     	boolean isLeap = false;
     	
@@ -125,7 +125,7 @@ public class CheckDataValidUtil {
      * @param isLeap
      * @return
      */
-    protected static boolean isDayInRangePerMonthPerYear (String s_day, String s_month, String s_year) {
+    private static boolean isDayInRangePerMonthPerYear (String s_day, String s_month, String s_year) {
 
     	boolean isInRange = false;
     	boolean isLeapYear = isLeapYear(s_year);
