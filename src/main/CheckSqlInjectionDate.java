@@ -7,8 +7,6 @@ import java.time.format.DateTimeFormatter;
 import java.time.format.DateTimeParseException;
 import java.util.Locale;
 
-import beans.GetterSetterProperties;
-
 public class CheckSqlInjectionDate {
 
 	public static void main(String[] args) {
